@@ -145,4 +145,17 @@ body {
   vertical-align: middle;
   font-weight: 400;
 }
+
+@media (max-width: 575.98px) {
+  body {
+    width: 370px;
+    overflow-x: hidden !important;
+  }
+  .message {
+    padding-top: 2rem;
+  }
+  .qusn-mark::after {
+    top: 6.3rem;
+  }
+}
 /*# sourceMappingURL=style.css.map */
