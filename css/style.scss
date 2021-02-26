@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap");
+
+// font-family: 'Goldman', cursive;
+* {
+  outline: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #222;
+  color: #fff;
+  padding: 1.5rem 0;
+  width: 720px;
+  height: auto;
+}
+
+.container {
+  border: 1px solid #fff;
+  padding: 1rem;
+  border-radius: 2rem;
+
+  .logo {
+    text-align: right;
+
+    img {
+      width: 7%;
+    }
+  }
+}
+
+/*End Of Bassic Css*/
+#top-header {
+  padding: 0 0 2rem 0;
+  text-align: center;
+
+  .btn-reset {
+    font-family: "Goldman", cursive;
+  }
+
+  .number-between {
+    font-family: "Goldman", cursive;
+    font-size: 0.9rem;
+  }
+}
+
+#second-part {
+  position: relative;
+
+  .main-heading {
+    font-family: "Goldman", cursive;
+  }
+
+  .qusn-mark {
+    font-family: "Goldman", cursive;
+    font-size: 5rem;
+
+    &::after {
+      content: "";
+      position: absolute;
+      height: 3px;
+      width: 100%;
+      background-color: #9c9c9c;
+      top: 6.6rem;
+      left: 0;
+      z-index: -1;
+    }
+  }
+}
+
+#third-part {
+  padding: 2rem 0;
+
+  .input-box {
+    text-align: center;
+    font-family: "Goldman", cursive;
+
+    .box {
+      margin-left: 4.3rem;
+      font-family: "Goldman", cursive;
+      width: 60%;
+      height: 4rem;
+      display: block;
+      background-color: #222;
+      border: 2px solid rgb(168, 165, 165);
+      color: #fff;
+      font-weight: 700;
+      font-size: 2.5rem;
+      padding: 0.5rem;
+      margin-bottom: 3rem;
+      border-radius: 1rem;
+    }
+
+    .chack-btn {
+      font-family: "Goldman", cursive;
+    }
+  }
+
+  .message {
+    font-family: "Goldman", cursive;
+    padding-bottom: 0.5rem;
+  }
+
+  .score {
+    font-family: "Goldman", cursive;
+    padding-bottom: 0.5rem;
+  }
+
+  .high-score {
+    font-family: "Goldman", cursive;
+    padding-bottom: 0.5rem;
+  }
+}
+
+// font-family: 'Goldman', cursive;
+::placeholder {
+  font-size: 0.6rem;
+  vertical-align: middle;
+  font-weight: 400;
+}
